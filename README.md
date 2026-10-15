@@ -17,6 +17,8 @@ docker compose up -d
 
 The UI is at <http://127.0.0.1:8091>. FalkorDB listens on port 6379. The image also serves FalkorDB Browser on container port 3000, mapped to host port 3391.
 
+`Dockerfile.render` is a single container for a free Render web service: FalkorDB and the API together, listening on `PORT`. Steps are in `docs/DEPLOY.md`.
+
 On startup the API MERGEs `seed/catalog.json` into the `ecosystem` graph and runs scout. The catalog was fetched from the public npm registry and PyPI at `2026-10-15T18:16:27Z`. After that, answers come from the graph, not from the JSON file.
 
 Stop it with `docker compose down`. The named volume keeps the graphs. `docker compose down -v` deletes that volume.
@@ -222,7 +224,7 @@ Sample questions are the chips in the UI. `docs/DEMO_SCRIPT.md` is the click pat
 
 The workflow file is `ci/github-actions-ci.yml`. It is not under `.github/workflows`, because the push token used to publish this repo cannot update that directory. Copy the file there if you want GitHub Actions to run it.
 
-## AI assistance disclosure
+## AI-use disclosure
 
 Cursor's coding agent (Grok 4.7) drafted this repository, including the Cypher, the seed loader, the UI, and these docs. Aman Tebriwal is the project owner and the person who has to explain the graph model, the queries, and the architecture. The registry fields in `seed/catalog.json` were fetched from npm and PyPI by `scripts/build_catalog.py` at the timestamp in that file. Alternative edges were chosen in the editorial list, not by the registries. The no-key demo does not call a model.
 

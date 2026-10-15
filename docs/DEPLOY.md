@@ -18,21 +18,37 @@ Free tier notes below are from FalkorDB's free tier doc (fetched 15 Oct 2026): <
 
 The API reads `FALKORDB_HOST`, `FALKORDB_PORT`, `FALKORDB_USERNAME`, `FALKORDB_PASSWORD`, and optional `FALKORDB_URL`.
 
-## Render
+## Render, one container
 
-Render can build the Dockerfile. This is a web service, not a static site.
+`Dockerfile.render` uses `falkordb/falkordb` as its base image. The process starts FalkorDB on localhost inside the container, then starts the API on the `PORT` value Render injects. On startup the API MERGEs `seed/catalog.json` and runs scout. No FalkorDB Cloud account is required. Leave `LLM_API_KEY` empty so the rule router is used.
+
+Local check:
+
+```
+docker build -f Dockerfile.render -t stackgraph-render .
+docker run -e PORT=8091 -p 8091:8091 stackgraph-render
+```
+
+Open <http://127.0.0.1:8091/api/health>. `falkordb` should be `up` and `mode` should be `fallback`.
+
+On Render:
 
 1. Push the repo to a public remote Render can see.
-2. New Web Service, Docker runtime, root directory the repo root.
-3. The container listens on 8091. Set Render's port to 8091 if it asks, or set `PORT` only if you also change the process command. The image command already passes port 8091.
-4. Environment:
-   * `FALKORDB_HOST` from the cloud dashboard
-   * `FALKORDB_PORT` from the dashboard
-   * `FALKORDB_PASSWORD` from the dashboard
-   * `FALKORDB_USERNAME` if the dashboard shows one
-   * `STACKGRAPH_GRAPH` = `ecosystem`
-   * Leave `LLM_API_KEY` empty for the rule router
-5. Deploy. The first request loads `seed/catalog.json` and runs scout. Open `/api/health` and confirm `falkordb` is `up` and `mode` is `fallback`.
-6. Put the resulting `https://` host into the submission form. Until that exists, the submission link is the local setup.
+2. New Web Service. Environment: Docker. Root directory: the repo root.
+3. Set the Dockerfile path to `Dockerfile.render`.
+4. Do not set `FALKORDB_HOST`. The entrypoint forces localhost. Do not publish a Redis port. Only the HTTP port Render assigns is public.
+5. Deploy. The first boot installs nothing extra at runtime. The image already contains Python, the app, and the seed.
+6. Open `/api/health` on the host Render prints. Put that `https://` URL in the submission form once it exists. This repo does not invent one.
 
-Free web services on Render sleep. Combined with FalkorDB free tier idle stop, a judge who opens the URL a day later may find both sides down. The README local setup is the reliable path.
+The free web service sleeps, and its disk goes away when the instance is replaced. The seed loads again on the next boot. Preferences written to the memory graph do not survive a new container. The compose file with a named volume is the setup that keeps memory across restarts.
+
+## Render plus FalkorDB Cloud
+
+Use the root `Dockerfile` only if FalkorDB runs somewhere else.
+
+1. New Web Service, Docker, root `Dockerfile` (not `Dockerfile.render`).
+2. The API process in that image listens on 8091, not on `PORT`.
+3. Environment from the FalkorDB Cloud dashboard: `FALKORDB_HOST`, `FALKORDB_PORT`, `FALKORDB_PASSWORD`, and `FALKORDB_USERNAME` if one is shown. Set `STACKGRAPH_GRAPH` to `ecosystem`. Leave `LLM_API_KEY` empty.
+4. Deploy and check `/api/health`.
+
+Free web services on Render sleep. Combined with the FalkorDB free tier idle stop described above, a judge who opens the URL a day later may find both sides down. The README local setup is the reliable path.

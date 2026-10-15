@@ -1,0 +1,32 @@
+FROM falkordb/falkordb:latest
+
+USER root
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends python3 python3-pip python3-venv \
+    && rm -rf /var/lib/apt/lists/* \
+    && python3 -m venv /opt/venv
+
+ENV PATH="/opt/venv/bin:${PATH}" \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    FALKORDB_HOST=127.0.0.1 \
+    FALKORDB_PORT=6379 \
+    STACKGRAPH_GRAPH=ecosystem \
+    BROWSER=0
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY app ./app
+COPY seed ./seed
+COPY scripts ./scripts
+RUN chmod +x /app/scripts/render_entrypoint.sh
+
+EXPOSE 8091
+
+# The base image ENTRYPOINT is run.sh, which execs redis-server and ignores CMD.
+# Override it so this script starts FalkorDB and then the API.
+ENTRYPOINT ["/app/scripts/render_entrypoint.sh"]
