@@ -1,0 +1,31 @@
+name: stackgraph
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      falkordb:
+        image: falkordb/falkordb:latest
+        ports:
+          - 6379:6379
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -r requirements.txt
+      - name: Check docs
+        run: python scripts/check_docs.py
+      - name: Test
+        run: python -m pytest
+        env:
+          FALKORDB_HOST: localhost
+          FALKORDB_PORT: "6379"
+          STACKGRAPH_GRAPH: sg_ci_eco
+          LLM_API_KEY: ""
+          LLM_BASE_URL: ""

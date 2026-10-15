@@ -1,0 +1,1 @@
+"""Stackgraph application package."""

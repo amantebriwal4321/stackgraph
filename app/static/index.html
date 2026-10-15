@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stackgraph</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,680&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@380;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="mark" aria-hidden="true">Sg</span>
+      <div>
+        <h1>Stackgraph</h1>
+        <p>Dependency questions, answered with the Cypher that produced them.</p>
+      </div>
+    </div>
+    <div class="pills" id="pills" aria-live="polite"></div>
+  </header>
+
+  <main>
+    <section class="chat" aria-label="Questions">
+      <div id="log" class="log">
+        <article class="bubble agent empty">
+          <p>The corpus is a FalkorDB graph of public npm and PyPI packages. Answers use only nodes and edges in that graph. With no model key, a rule router picks the query.</p>
+          <p>Scout writes a blast radius signal onto tools other packages depend on. Advisor reads those signals when you ask what would break.</p>
+        </article>
+      </div>
+      <div class="examples" id="examples"></div>
+      <form id="ask">
+        <label for="question">Question</label>
+        <textarea id="question" name="question" rows="2" required placeholder="What should I use instead of moment?"></textarea>
+        <div class="composer">
+          <label class="user-field">User
+            <input id="user" name="user" value="demo" autocomplete="off" maxlength="24">
+          </label>
+          <button type="submit" id="send">Ask the graph</button>
+        </div>
+      </form>
+    </section>
+
+    <aside aria-label="Evidence">
+      <section class="panel">
+        <div class="panel-head">
+          <h2>Evidence</h2>
+          <button type="button" id="scout">Run scout</button>
+        </div>
+        <div id="evidence" class="evidence">
+          <p class="muted">Ask a question. The query, the parameters, and the path show up here.</p>
+        </div>
+      </section>
+    </aside>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

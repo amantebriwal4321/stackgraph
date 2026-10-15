@@ -1,0 +1,2242 @@
+{
+  "generated_at": "2026-10-15T18:16:27Z",
+  "note": "Descriptions, versions, licenses, repos, and dependency edges come from the public npm and PyPI registry documents fetched at generated_at. Alternative edges and the Moment signal are editorial. Scores on the seed signal are flags, not measurements.",
+  "categories": [
+    {
+      "id": "ui-library",
+      "name": "UI library"
+    },
+    {
+      "id": "meta-framework",
+      "name": "Meta framework"
+    },
+    {
+      "id": "frontend-framework",
+      "name": "Frontend framework"
+    },
+    {
+      "id": "bundler",
+      "name": "Bundler"
+    },
+    {
+      "id": "date-time",
+      "name": "Date and time"
+    },
+    {
+      "id": "validation",
+      "name": "Validation"
+    },
+    {
+      "id": "http-server",
+      "name": "HTTP server"
+    },
+    {
+      "id": "http-client",
+      "name": "HTTP client"
+    },
+    {
+      "id": "data-access",
+      "name": "Data access"
+    },
+    {
+      "id": "data-fetching",
+      "name": "Data fetching"
+    },
+    {
+      "id": "test-runner",
+      "name": "Test runner"
+    },
+    {
+      "id": "browser-test",
+      "name": "Browser test"
+    },
+    {
+      "id": "linter",
+      "name": "Linter"
+    },
+    {
+      "id": "formatter",
+      "name": "Formatter"
+    },
+    {
+      "id": "language",
+      "name": "Language"
+    },
+    {
+      "id": "auth",
+      "name": "Authentication"
+    },
+    {
+      "id": "state",
+      "name": "State"
+    },
+    {
+      "id": "css",
+      "name": "CSS"
+    },
+    {
+      "id": "dataframe",
+      "name": "Data frame"
+    },
+    {
+      "id": "numeric",
+      "name": "Numeric"
+    },
+    {
+      "id": "task-queue",
+      "name": "Task queue"
+    },
+    {
+      "id": "python-web",
+      "name": "Python web"
+    },
+    {
+      "id": "utility",
+      "name": "Utility"
+    }
+  ],
+  "maintainers": [
+    {
+      "id": "facebook",
+      "name": "Meta Open Source",
+      "handle": "facebook",
+      "url": "https://github.com/facebook"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "handle": "vercel",
+      "url": "https://github.com/vercel"
+    },
+    {
+      "id": "nextauthjs",
+      "name": "Auth.js",
+      "handle": "nextauthjs",
+      "url": "https://github.com/nextauthjs"
+    },
+    {
+      "id": "remix-run",
+      "name": "Remix",
+      "handle": "remix-run",
+      "url": "https://github.com/remix-run"
+    },
+    {
+      "id": "vuejs",
+      "name": "Vue.js",
+      "handle": "vuejs",
+      "url": "https://github.com/vuejs"
+    },
+    {
+      "id": "nuxt",
+      "name": "Nuxt",
+      "handle": "nuxt",
+      "url": "https://github.com/nuxt"
+    },
+    {
+      "id": "sveltejs",
+      "name": "Svelte",
+      "handle": "sveltejs",
+      "url": "https://github.com/sveltejs"
+    },
+    {
+      "id": "angular",
+      "name": "Angular",
+      "handle": "angular",
+      "url": "https://github.com/angular"
+    },
+    {
+      "id": "webpack",
+      "name": "webpack",
+      "handle": "webpack",
+      "url": "https://github.com/webpack"
+    },
+    {
+      "id": "vitejs",
+      "name": "Vite",
+      "handle": "vitejs",
+      "url": "https://github.com/vitejs"
+    },
+    {
+      "id": "evanw",
+      "name": "evanw",
+      "handle": "evanw",
+      "url": "https://github.com/evanw"
+    },
+    {
+      "id": "rollup",
+      "name": "Rollup",
+      "handle": "rollup",
+      "url": "https://github.com/rollup"
+    },
+    {
+      "id": "parcel",
+      "name": "Parcel",
+      "handle": "parcel-bundler",
+      "url": "https://github.com/parcel-bundler"
+    },
+    {
+      "id": "tailwindlabs",
+      "name": "Tailwind Labs",
+      "handle": "tailwindlabs",
+      "url": "https://github.com/tailwindlabs"
+    },
+    {
+      "id": "styled-components",
+      "name": "styled-components",
+      "handle": "styled-components",
+      "url": "https://github.com/styled-components"
+    },
+    {
+      "id": "reduxjs",
+      "name": "Redux",
+      "handle": "reduxjs",
+      "url": "https://github.com/reduxjs"
+    },
+    {
+      "id": "pmndrs",
+      "name": "Poimandres",
+      "handle": "pmndrs",
+      "url": "https://github.com/pmndrs"
+    },
+    {
+      "id": "tanstack",
+      "name": "TanStack",
+      "handle": "TanStack",
+      "url": "https://github.com/TanStack"
+    },
+    {
+      "id": "jestjs",
+      "name": "Jest",
+      "handle": "jestjs",
+      "url": "https://github.com/jestjs"
+    },
+    {
+      "id": "vitest-dev",
+      "name": "Vitest",
+      "handle": "vitest-dev",
+      "url": "https://github.com/vitest-dev"
+    },
+    {
+      "id": "cypress-io",
+      "name": "Cypress",
+      "handle": "cypress-io",
+      "url": "https://github.com/cypress-io"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "handle": "microsoft",
+      "url": "https://github.com/microsoft"
+    },
+    {
+      "id": "eslint",
+      "name": "ESLint",
+      "handle": "eslint",
+      "url": "https://github.com/eslint"
+    },
+    {
+      "id": "biomejs",
+      "name": "Biome",
+      "handle": "biomejs",
+      "url": "https://github.com/biomejs"
+    },
+    {
+      "id": "prettier",
+      "name": "Prettier",
+      "handle": "prettier",
+      "url": "https://github.com/prettier"
+    },
+    {
+      "id": "expressjs",
+      "name": "Express",
+      "handle": "expressjs",
+      "url": "https://github.com/expressjs"
+    },
+    {
+      "id": "fastify",
+      "name": "Fastify",
+      "handle": "fastify",
+      "url": "https://github.com/fastify"
+    },
+    {
+      "id": "koajs",
+      "name": "Koa",
+      "handle": "koajs",
+      "url": "https://github.com/koajs"
+    },
+    {
+      "id": "honojs",
+      "name": "Hono",
+      "handle": "honojs",
+      "url": "https://github.com/honojs"
+    },
+    {
+      "id": "moment",
+      "name": "Moment",
+      "handle": "moment",
+      "url": "https://github.com/moment"
+    },
+    {
+      "id": "iamkun",
+      "name": "iamkun",
+      "handle": "iamkun",
+      "url": "https://github.com/iamkun"
+    },
+    {
+      "id": "date-fns",
+      "name": "date-fns",
+      "handle": "date-fns",
+      "url": "https://github.com/date-fns"
+    },
+    {
+      "id": "lodash",
+      "name": "Lodash",
+      "handle": "lodash",
+      "url": "https://github.com/lodash"
+    },
+    {
+      "id": "colinhacks",
+      "name": "colinhacks",
+      "handle": "colinhacks",
+      "url": "https://github.com/colinhacks"
+    },
+    {
+      "id": "jquense",
+      "name": "jquense",
+      "handle": "jquense",
+      "url": "https://github.com/jquense"
+    },
+    {
+      "id": "hapijs",
+      "name": "hapi",
+      "handle": "hapijs",
+      "url": "https://github.com/hapijs"
+    },
+    {
+      "id": "fabian-hiller",
+      "name": "fabian-hiller",
+      "handle": "fabian-hiller",
+      "url": "https://github.com/fabian-hiller"
+    },
+    {
+      "id": "prisma",
+      "name": "Prisma",
+      "handle": "prisma",
+      "url": "https://github.com/prisma"
+    },
+    {
+      "id": "drizzle-team",
+      "name": "Drizzle Team",
+      "handle": "drizzle-team",
+      "url": "https://github.com/drizzle-team"
+    },
+    {
+      "id": "typeorm",
+      "name": "TypeORM",
+      "handle": "typeorm",
+      "url": "https://github.com/typeorm"
+    },
+    {
+      "id": "sequelize",
+      "name": "Sequelize",
+      "handle": "sequelize",
+      "url": "https://github.com/sequelize"
+    },
+    {
+      "id": "automattic",
+      "name": "Automattic",
+      "handle": "Automattic",
+      "url": "https://github.com/Automattic"
+    },
+    {
+      "id": "jaredhanson",
+      "name": "jaredhanson",
+      "handle": "jaredhanson",
+      "url": "https://github.com/jaredhanson"
+    },
+    {
+      "id": "nestjs",
+      "name": "NestJS",
+      "handle": "nestjs",
+      "url": "https://github.com/nestjs"
+    },
+    {
+      "id": "axios",
+      "name": "Axios",
+      "handle": "axios",
+      "url": "https://github.com/axios"
+    },
+    {
+      "id": "node-fetch",
+      "name": "node-fetch",
+      "handle": "node-fetch",
+      "url": "https://github.com/node-fetch"
+    },
+    {
+      "id": "balderdashy",
+      "name": "Sails",
+      "handle": "balderdashy",
+      "url": "https://github.com/balderdashy"
+    },
+    {
+      "id": "feathersjs",
+      "name": "Feathers",
+      "handle": "feathersjs",
+      "url": "https://github.com/feathersjs"
+    },
+    {
+      "id": "tiangolo",
+      "name": "tiangolo",
+      "handle": "tiangolo",
+      "url": "https://github.com/tiangolo"
+    },
+    {
+      "id": "encode",
+      "name": "Encode",
+      "handle": "encode",
+      "url": "https://github.com/encode"
+    },
+    {
+      "id": "pallets",
+      "name": "Pallets",
+      "handle": "pallets",
+      "url": "https://github.com/pallets"
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "handle": "django",
+      "url": "https://github.com/django"
+    },
+    {
+      "id": "pydantic",
+      "name": "Pydantic",
+      "handle": "pydantic",
+      "url": "https://github.com/pydantic"
+    },
+    {
+      "id": "marshmallow-code",
+      "name": "marshmallow-code",
+      "handle": "marshmallow-code",
+      "url": "https://github.com/marshmallow-code"
+    },
+    {
+      "id": "sqlalchemy",
+      "name": "SQLAlchemy",
+      "handle": "sqlalchemy",
+      "url": "https://github.com/sqlalchemy"
+    },
+    {
+      "id": "psf",
+      "name": "Python Software Foundation",
+      "handle": "psf",
+      "url": "https://github.com/psf"
+    },
+    {
+      "id": "pytest-dev",
+      "name": "pytest-dev",
+      "handle": "pytest-dev",
+      "url": "https://github.com/pytest-dev"
+    },
+    {
+      "id": "astral-sh",
+      "name": "Astral",
+      "handle": "astral-sh",
+      "url": "https://github.com/astral-sh"
+    },
+    {
+      "id": "pandas-dev",
+      "name": "pandas",
+      "handle": "pandas-dev",
+      "url": "https://github.com/pandas-dev"
+    },
+    {
+      "id": "pola-rs",
+      "name": "Polars",
+      "handle": "pola-rs",
+      "url": "https://github.com/pola-rs"
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "handle": "numpy",
+      "url": "https://github.com/numpy"
+    },
+    {
+      "id": "celery",
+      "name": "Celery",
+      "handle": "celery",
+      "url": "https://github.com/celery"
+    }
+  ],
+  "tools": [
+    {
+      "id": "npm:react",
+      "name": "react",
+      "ecosystem": "npm",
+      "package": "react",
+      "summary": "React is a JavaScript library for building user interfaces.",
+      "license": "MIT",
+      "repo": "https://github.com/react/react",
+      "version": "19.3.1",
+      "maintainer": "facebook",
+      "categories": [
+        "ui-library"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:react-dom",
+      "name": "react-dom",
+      "ecosystem": "npm",
+      "package": "react-dom",
+      "summary": "React package for working with the DOM.",
+      "license": "MIT",
+      "repo": "https://github.com/react/react",
+      "version": "19.3.1",
+      "maintainer": "facebook",
+      "categories": [
+        "ui-library"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:next",
+      "name": "next",
+      "ecosystem": "npm",
+      "package": "next",
+      "summary": "The React Framework",
+      "license": "MIT",
+      "repo": "https://github.com/vercel/next.js",
+      "version": "16.4.1",
+      "maintainer": "vercel",
+      "categories": [
+        "meta-framework"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:next-auth",
+      "name": "next-auth",
+      "ecosystem": "npm",
+      "package": "next-auth",
+      "summary": "Authentication for Next.js",
+      "license": "ISC",
+      "repo": "https://github.com/nextauthjs/next-auth",
+      "version": "4.24.15",
+      "maintainer": "nextauthjs",
+      "categories": [
+        "auth"
+      ],
+      "aliases": [
+        "auth.js"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@remix-run/react",
+      "name": "@remix-run/react",
+      "ecosystem": "npm",
+      "package": "@remix-run/react",
+      "summary": "React DOM bindings for Remix",
+      "license": "MIT",
+      "repo": "https://github.com/remix-run/remix",
+      "version": "2.17.5",
+      "maintainer": "remix-run",
+      "categories": [
+        "meta-framework"
+      ],
+      "aliases": [
+        "remix"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:vue",
+      "name": "vue",
+      "ecosystem": "npm",
+      "package": "vue",
+      "summary": "The progressive JavaScript framework for building modern web UI.",
+      "license": "MIT",
+      "repo": "https://github.com/vuejs/core",
+      "version": "3.5.44",
+      "maintainer": "vuejs",
+      "categories": [
+        "frontend-framework"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:nuxt",
+      "name": "nuxt",
+      "ecosystem": "npm",
+      "package": "nuxt",
+      "summary": "Nuxt is a free and open-source framework with an intuitive and extendable way to create type-safe, performant and production-grade full-stack web applications and websites with Vue.js.",
+      "license": "MIT",
+      "repo": "https://github.com/nuxt/nuxt",
+      "version": "4.6.1",
+      "maintainer": "nuxt",
+      "categories": [
+        "meta-framework"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:svelte",
+      "name": "svelte",
+      "ecosystem": "npm",
+      "package": "svelte",
+      "summary": "Cybernetically enhanced web apps",
+      "license": "MIT",
+      "repo": "https://github.com/sveltejs/svelte",
+      "version": "5.57.2",
+      "maintainer": "sveltejs",
+      "categories": [
+        "frontend-framework"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@sveltejs/kit",
+      "name": "@sveltejs/kit",
+      "ecosystem": "npm",
+      "package": "@sveltejs/kit",
+      "summary": "SvelteKit is the fastest way to build Svelte apps",
+      "license": "MIT",
+      "repo": "https://github.com/sveltejs/kit",
+      "version": "3.1.0",
+      "maintainer": "sveltejs",
+      "categories": [
+        "meta-framework"
+      ],
+      "aliases": [
+        "sveltekit"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@angular/core",
+      "name": "@angular/core",
+      "ecosystem": "npm",
+      "package": "@angular/core",
+      "summary": "Angular - the core framework",
+      "license": "MIT",
+      "repo": "https://github.com/angular/angular",
+      "version": "22.2.3",
+      "maintainer": "angular",
+      "categories": [
+        "frontend-framework"
+      ],
+      "aliases": [
+        "angular"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:webpack",
+      "name": "webpack",
+      "ecosystem": "npm",
+      "package": "webpack",
+      "summary": "Packs ECMAScript/CommonJs/AMD modules for the browser. Allows you to split your codebase into multiple bundles, which can be loaded on demand. Supports loaders to preprocess files, i.e. json, jsx, es7, css, less, ... and your custom stuff.",
+      "license": "MIT",
+      "repo": "https://github.com/webpack/webpack",
+      "version": "5.111.1",
+      "maintainer": "webpack",
+      "categories": [
+        "bundler"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:vite",
+      "name": "vite",
+      "ecosystem": "npm",
+      "package": "vite",
+      "summary": "Native-ESM powered web dev build tool",
+      "license": "MIT",
+      "repo": "https://github.com/vitejs/vite",
+      "version": "8.3.4",
+      "maintainer": "vitejs",
+      "categories": [
+        "bundler"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:esbuild",
+      "name": "esbuild",
+      "ecosystem": "npm",
+      "package": "esbuild",
+      "summary": "An extremely fast JavaScript and CSS bundler and minifier.",
+      "license": "MIT",
+      "repo": "https://github.com/evanw/esbuild",
+      "version": "0.28.2",
+      "maintainer": "evanw",
+      "categories": [
+        "bundler"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:rollup",
+      "name": "rollup",
+      "ecosystem": "npm",
+      "package": "rollup",
+      "summary": "Next-generation ES module bundler",
+      "license": "MIT",
+      "repo": "https://github.com/rollup/rollup",
+      "version": "4.64.7",
+      "maintainer": "rollup",
+      "categories": [
+        "bundler"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:parcel",
+      "name": "parcel",
+      "ecosystem": "npm",
+      "package": "parcel",
+      "summary": "Blazing fast, zero configuration web application bundler",
+      "license": "MIT",
+      "repo": "https://github.com/parcel-bundler/parcel",
+      "version": "2.16.4",
+      "maintainer": "parcel",
+      "categories": [
+        "bundler"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:tailwindcss",
+      "name": "tailwindcss",
+      "ecosystem": "npm",
+      "package": "tailwindcss",
+      "summary": "A utility-first CSS framework for rapidly building custom user interfaces.",
+      "license": "MIT",
+      "repo": "https://github.com/tailwindlabs/tailwindcss",
+      "version": "4.3.3",
+      "maintainer": "tailwindlabs",
+      "categories": [
+        "css"
+      ],
+      "aliases": [
+        "tailwind"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:styled-components",
+      "name": "styled-components",
+      "ecosystem": "npm",
+      "package": "styled-components",
+      "summary": "Fast, expressive styling for React.",
+      "license": "MIT",
+      "repo": "https://github.com/styled-components/styled-components",
+      "version": "6.6.0",
+      "maintainer": "styled-components",
+      "categories": [
+        "css"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:redux",
+      "name": "redux",
+      "ecosystem": "npm",
+      "package": "redux",
+      "summary": "Predictable state container for JavaScript apps",
+      "license": "MIT",
+      "repo": "https://github.com/reduxjs/redux",
+      "version": "5.0.1",
+      "maintainer": "reduxjs",
+      "categories": [
+        "state"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:zustand",
+      "name": "zustand",
+      "ecosystem": "npm",
+      "package": "zustand",
+      "summary": "\ud83d\udc3b Bear necessities for state management in React",
+      "license": "MIT",
+      "repo": "https://github.com/pmndrs/zustand",
+      "version": "5.0.15",
+      "maintainer": "pmndrs",
+      "categories": [
+        "state"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@tanstack/react-query",
+      "name": "@tanstack/react-query",
+      "ecosystem": "npm",
+      "package": "@tanstack/react-query",
+      "summary": "Hooks for managing, caching and syncing asynchronous and remote data in React",
+      "license": "MIT",
+      "repo": "https://github.com/TanStack/query",
+      "version": "5.104.3",
+      "maintainer": "tanstack",
+      "categories": [
+        "data-fetching"
+      ],
+      "aliases": [
+        "react-query"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:swr",
+      "name": "swr",
+      "ecosystem": "npm",
+      "package": "swr",
+      "summary": "React Hooks library for remote data fetching",
+      "license": "MIT",
+      "repo": "https://github.com/vercel/swr",
+      "version": "2.5.1",
+      "maintainer": "vercel",
+      "categories": [
+        "data-fetching"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:jest",
+      "name": "jest",
+      "ecosystem": "npm",
+      "package": "jest",
+      "summary": "Delightful JavaScript Testing.",
+      "license": "MIT",
+      "repo": "https://github.com/jestjs/jest",
+      "version": "30.5.2",
+      "maintainer": "jestjs",
+      "categories": [
+        "test-runner"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:vitest",
+      "name": "vitest",
+      "ecosystem": "npm",
+      "package": "vitest",
+      "summary": "Next generation testing framework powered by Vite",
+      "license": "MIT",
+      "repo": "https://github.com/vitest-dev/vitest",
+      "version": "5.0.5",
+      "maintainer": "vitest-dev",
+      "categories": [
+        "test-runner"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:cypress",
+      "name": "cypress",
+      "ecosystem": "npm",
+      "package": "cypress",
+      "summary": "Cypress is a next generation front end testing tool built for the modern web",
+      "license": "MIT",
+      "repo": "https://github.com/cypress-io/cypress",
+      "version": "16.2.0",
+      "maintainer": "cypress-io",
+      "categories": [
+        "browser-test"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@playwright/test",
+      "name": "@playwright/test",
+      "ecosystem": "npm",
+      "package": "@playwright/test",
+      "summary": "A high-level API to automate web browsers",
+      "license": "Apache-2.0",
+      "repo": "https://github.com/microsoft/playwright",
+      "version": "1.64.1",
+      "maintainer": "microsoft",
+      "categories": [
+        "browser-test"
+      ],
+      "aliases": [
+        "playwright"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:eslint",
+      "name": "eslint",
+      "ecosystem": "npm",
+      "package": "eslint",
+      "summary": "An AST-based pattern checker for JavaScript.",
+      "license": "MIT",
+      "repo": "https://github.com/eslint/eslint",
+      "version": "10.12.0",
+      "maintainer": "eslint",
+      "categories": [
+        "linter"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@biomejs/biome",
+      "name": "@biomejs/biome",
+      "ecosystem": "npm",
+      "package": "@biomejs/biome",
+      "summary": "Biome is a toolchain for the web: formatter, linter and more",
+      "license": "MIT OR Apache-2.0",
+      "repo": "https://github.com/biomejs/biome",
+      "version": "2.5.15",
+      "maintainer": "biomejs",
+      "categories": [
+        "linter",
+        "formatter"
+      ],
+      "aliases": [
+        "biome"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:prettier",
+      "name": "prettier",
+      "ecosystem": "npm",
+      "package": "prettier",
+      "summary": "Prettier is an opinionated code formatter",
+      "license": "MIT",
+      "repo": "https://github.com/prettier/prettier",
+      "version": "3.9.10",
+      "maintainer": "prettier",
+      "categories": [
+        "formatter"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:typescript",
+      "name": "typescript",
+      "ecosystem": "npm",
+      "package": "typescript",
+      "summary": "TypeScript is a language for application scale JavaScript development",
+      "license": "Apache-2.0",
+      "repo": "https://github.com/microsoft/TypeScript",
+      "version": "7.0.2",
+      "maintainer": "microsoft",
+      "categories": [
+        "language"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:express",
+      "name": "express",
+      "ecosystem": "npm",
+      "package": "express",
+      "summary": "Fast, unopinionated, minimalist web framework",
+      "license": "MIT",
+      "repo": "https://github.com/expressjs/express",
+      "version": "5.3.0",
+      "maintainer": "expressjs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:fastify",
+      "name": "fastify",
+      "ecosystem": "npm",
+      "package": "fastify",
+      "summary": "Fast and low overhead web framework, for Node.js",
+      "license": "MIT",
+      "repo": "https://github.com/fastify/fastify",
+      "version": "5.12.7",
+      "maintainer": "fastify",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:koa",
+      "name": "koa",
+      "ecosystem": "npm",
+      "package": "koa",
+      "summary": "Koa web app framework",
+      "license": "MIT",
+      "repo": "https://github.com/koajs/koa",
+      "version": "3.2.1",
+      "maintainer": "koajs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:hono",
+      "name": "hono",
+      "ecosystem": "npm",
+      "package": "hono",
+      "summary": "Web framework built on Web Standards",
+      "license": "MIT",
+      "repo": "https://github.com/honojs/hono",
+      "version": "4.13.13",
+      "maintainer": "honojs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:moment",
+      "name": "moment",
+      "ecosystem": "npm",
+      "package": "moment",
+      "summary": "Parse, validate, manipulate, and display dates",
+      "license": "MIT",
+      "repo": "github:moment/moment",
+      "version": "2.31.0",
+      "maintainer": "moment",
+      "categories": [
+        "date-time"
+      ],
+      "aliases": [],
+      "legacy": true,
+      "origin": "public"
+    },
+    {
+      "id": "npm:dayjs",
+      "name": "dayjs",
+      "ecosystem": "npm",
+      "package": "dayjs",
+      "summary": "2KB immutable date time library alternative to Moment.js with the same modern API",
+      "license": "MIT",
+      "repo": "https://github.com/iamkun/dayjs",
+      "version": "1.11.23",
+      "maintainer": "iamkun",
+      "categories": [
+        "date-time"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:date-fns",
+      "name": "date-fns",
+      "ecosystem": "npm",
+      "package": "date-fns",
+      "summary": "Modern JavaScript date utility library",
+      "license": "MIT",
+      "repo": "https://github.com/date-fns/date-fns",
+      "version": "4.4.0",
+      "maintainer": "date-fns",
+      "categories": [
+        "date-time"
+      ],
+      "aliases": [
+        "datefns"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:luxon",
+      "name": "luxon",
+      "ecosystem": "npm",
+      "package": "luxon",
+      "summary": "Immutable date wrapper",
+      "license": "MIT",
+      "repo": "https://github.com/moment/luxon",
+      "version": "3.7.2",
+      "maintainer": "moment",
+      "categories": [
+        "date-time"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:lodash",
+      "name": "lodash",
+      "ecosystem": "npm",
+      "package": "lodash",
+      "summary": "Lodash modular utilities.",
+      "license": "MIT",
+      "repo": "https://github.com/lodash/lodash",
+      "version": "4.18.1",
+      "maintainer": "lodash",
+      "categories": [
+        "utility"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:zod",
+      "name": "zod",
+      "ecosystem": "npm",
+      "package": "zod",
+      "summary": "TypeScript-first schema declaration and validation library with static type inference",
+      "license": "MIT",
+      "repo": "https://github.com/colinhacks/zod",
+      "version": "4.6.7",
+      "maintainer": "colinhacks",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:yup",
+      "name": "yup",
+      "ecosystem": "npm",
+      "package": "yup",
+      "summary": "Dead simple Object schema validation",
+      "license": "MIT",
+      "repo": "https://github.com/jquense/yup",
+      "version": "1.7.1",
+      "maintainer": "jquense",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:joi",
+      "name": "joi",
+      "ecosystem": "npm",
+      "package": "joi",
+      "summary": "Object schema validation",
+      "license": "BSD-3-Clause",
+      "repo": "git://github.com/hapijs/joi",
+      "version": "18.2.9",
+      "maintainer": "hapijs",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:valibot",
+      "name": "valibot",
+      "ecosystem": "npm",
+      "package": "valibot",
+      "summary": "The modular and type safe schema library for validating structural data",
+      "license": "MIT",
+      "repo": "https://github.com/open-circle/valibot",
+      "version": "1.5.0",
+      "maintainer": "fabian-hiller",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@prisma/client",
+      "name": "@prisma/client",
+      "ecosystem": "npm",
+      "package": "@prisma/client",
+      "summary": "Prisma Client is an auto-generated, type-safe and modern JavaScript/TypeScript ORM for Node.js that's tailored to your data. Supports PostgreSQL, CockroachDB, MySQL, MariaDB, SQL Server, SQLite & MongoDB databases.",
+      "license": "Apache-2.0",
+      "repo": "https://github.com/prisma/prisma",
+      "version": "7.10.0",
+      "maintainer": "prisma",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [
+        "prisma"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:drizzle-orm",
+      "name": "drizzle-orm",
+      "ecosystem": "npm",
+      "package": "drizzle-orm",
+      "summary": "Drizzle ORM package for SQL databases",
+      "license": "Apache-2.0",
+      "repo": "https://github.com/drizzle-team/drizzle-orm",
+      "version": "0.45.4",
+      "maintainer": "drizzle-team",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [
+        "drizzle"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:typeorm",
+      "name": "typeorm",
+      "ecosystem": "npm",
+      "package": "typeorm",
+      "summary": "Data-Mapper ORM for TypeScript and ES2023+. Supports MySQL/MariaDB, PostgreSQL, MS SQL Server, Oracle, SAP HANA, SQLite, MongoDB databases.",
+      "license": "MIT",
+      "repo": "https://github.com/typeorm/typeorm",
+      "version": "1.1.2",
+      "maintainer": "typeorm",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:sequelize",
+      "name": "sequelize",
+      "ecosystem": "npm",
+      "package": "sequelize",
+      "summary": "Sequelize is a promise-based Node.js ORM tool for Postgres, MySQL, MariaDB, SQLite, Microsoft SQL Server, Amazon Redshift and Snowflake\u2019s Data Cloud. It features solid transaction support, relations, eager and lazy loading, read replication and more.",
+      "license": "MIT",
+      "repo": "https://github.com/sequelize/sequelize",
+      "version": "6.37.8",
+      "maintainer": "sequelize",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:mongoose",
+      "name": "mongoose",
+      "ecosystem": "npm",
+      "package": "mongoose",
+      "summary": "Mongoose MongoDB ODM",
+      "license": "MIT",
+      "repo": "git://github.com/Automattic/mongoose",
+      "version": "9.11.2",
+      "maintainer": "automattic",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:passport",
+      "name": "passport",
+      "ecosystem": "npm",
+      "package": "passport",
+      "summary": "Simple, unobtrusive authentication for Node.js.",
+      "license": "MIT",
+      "repo": "git://github.com/jaredhanson/passport",
+      "version": "0.7.0",
+      "maintainer": "jaredhanson",
+      "categories": [
+        "auth"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@nestjs/core",
+      "name": "@nestjs/core",
+      "ecosystem": "npm",
+      "package": "@nestjs/core",
+      "summary": "Nest - modern, fast, powerful node.js web framework (@core)",
+      "license": "MIT",
+      "repo": "https://github.com/nestjs/nest",
+      "version": "12.1.3",
+      "maintainer": "nestjs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [
+        "nestjs"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@nestjs/platform-express",
+      "name": "@nestjs/platform-express",
+      "ecosystem": "npm",
+      "package": "@nestjs/platform-express",
+      "summary": "Nest - modern, fast, powerful node.js web framework (@platform-express)",
+      "license": "MIT",
+      "repo": "https://github.com/nestjs/nest",
+      "version": "12.1.3",
+      "maintainer": "nestjs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [
+        "platform-express"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:axios",
+      "name": "axios",
+      "ecosystem": "npm",
+      "package": "axios",
+      "summary": "Promise based HTTP client for the browser and node.js",
+      "license": "MIT",
+      "repo": "https://github.com/axios/axios",
+      "version": "1.20.0",
+      "maintainer": "axios",
+      "categories": [
+        "http-client"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:node-fetch",
+      "name": "node-fetch",
+      "ecosystem": "npm",
+      "package": "node-fetch",
+      "summary": "A light-weight module that brings Fetch API to node.js",
+      "license": "MIT",
+      "repo": "https://github.com/node-fetch/node-fetch",
+      "version": "3.3.2",
+      "maintainer": "node-fetch",
+      "categories": [
+        "http-client"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:sails",
+      "name": "sails",
+      "ecosystem": "npm",
+      "package": "sails",
+      "summary": "API-driven framework for building realtime apps, using MVC conventions (based on Express and Socket.io)",
+      "license": "MIT",
+      "repo": "git://github.com/balderdashy/sails",
+      "version": "1.5.18",
+      "maintainer": "balderdashy",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "npm:@feathersjs/express",
+      "name": "@feathersjs/express",
+      "ecosystem": "npm",
+      "package": "@feathersjs/express",
+      "summary": "Feathers Express framework bindings and REST provider",
+      "license": "MIT",
+      "repo": "git://github.com/feathersjs/feathers",
+      "version": "5.0.50",
+      "maintainer": "feathersjs",
+      "categories": [
+        "http-server"
+      ],
+      "aliases": [
+        "feathers"
+      ],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:fastapi",
+      "name": "fastapi",
+      "ecosystem": "pypi",
+      "package": "fastapi",
+      "summary": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "license": "MIT",
+      "repo": "https://github.com/fastapi/fastapi",
+      "version": "0.143.2",
+      "maintainer": "tiangolo",
+      "categories": [
+        "python-web"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:starlette",
+      "name": "starlette",
+      "ecosystem": "pypi",
+      "package": "starlette",
+      "summary": "The little ASGI library that shines.",
+      "license": "BSD-3-Clause",
+      "repo": "https://github.com/Kludex/starlette",
+      "version": "1.8.0",
+      "maintainer": "encode",
+      "categories": [
+        "python-web"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:flask",
+      "name": "flask",
+      "ecosystem": "pypi",
+      "package": "flask",
+      "summary": "A simple framework for building complex web applications.",
+      "license": "BSD-3-Clause",
+      "repo": "https://github.com/pallets/flask/",
+      "version": "3.1.3",
+      "maintainer": "pallets",
+      "categories": [
+        "python-web"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:django",
+      "name": "django",
+      "ecosystem": "pypi",
+      "package": "django",
+      "summary": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+      "license": "BSD-3-Clause",
+      "repo": "https://github.com/django/django",
+      "version": "6.1.2",
+      "maintainer": "django",
+      "categories": [
+        "python-web"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:pydantic",
+      "name": "pydantic",
+      "ecosystem": "pypi",
+      "package": "pydantic",
+      "summary": "Data validation using Python type hints",
+      "license": "MIT",
+      "repo": "https://github.com/pydantic/pydantic",
+      "version": "2.14.1",
+      "maintainer": "pydantic",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:marshmallow",
+      "name": "marshmallow",
+      "ecosystem": "pypi",
+      "package": "marshmallow",
+      "summary": "A lightweight library for converting complex datatypes to and from native Python datatypes.",
+      "license": "MIT",
+      "repo": "https://github.com/marshmallow-code/marshmallow",
+      "version": "4.3.1",
+      "maintainer": "marshmallow-code",
+      "categories": [
+        "validation"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:sqlalchemy",
+      "name": "sqlalchemy",
+      "ecosystem": "pypi",
+      "package": "sqlalchemy",
+      "summary": "Database Abstraction Library",
+      "license": "MIT",
+      "repo": "https://www.sqlalchemy.org",
+      "version": "2.1.4",
+      "maintainer": "sqlalchemy",
+      "categories": [
+        "data-access"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:requests",
+      "name": "requests",
+      "ecosystem": "pypi",
+      "package": "requests",
+      "summary": "Python HTTP for Humans.",
+      "license": "Apache-2.0",
+      "repo": "https://github.com/psf/requests",
+      "version": "2.34.2",
+      "maintainer": "psf",
+      "categories": [
+        "http-client"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:httpx",
+      "name": "httpx",
+      "ecosystem": "pypi",
+      "package": "httpx",
+      "summary": "The next generation HTTP client.",
+      "license": "BSD-3-Clause",
+      "repo": "https://github.com/encode/httpx",
+      "version": "0.28.1",
+      "maintainer": "encode",
+      "categories": [
+        "http-client"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:pytest",
+      "name": "pytest",
+      "ecosystem": "pypi",
+      "package": "pytest",
+      "summary": "pytest: simple powerful testing with Python",
+      "license": "MIT",
+      "repo": "https://github.com/pytest-dev/pytest",
+      "version": "9.1.1",
+      "maintainer": "pytest-dev",
+      "categories": [
+        "test-runner"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:ruff",
+      "name": "ruff",
+      "ecosystem": "pypi",
+      "package": "ruff",
+      "summary": "An extremely fast Python linter and code formatter, written in Rust.",
+      "license": "MIT",
+      "repo": "https://github.com/astral-sh/ruff",
+      "version": "0.17.1",
+      "maintainer": "astral-sh",
+      "categories": [
+        "linter",
+        "formatter"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:black",
+      "name": "black",
+      "ecosystem": "pypi",
+      "package": "black",
+      "summary": "The uncompromising code formatter.",
+      "license": "MIT",
+      "repo": "https://github.com/psf/black",
+      "version": "26.10.1",
+      "maintainer": "psf",
+      "categories": [
+        "formatter"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:pandas",
+      "name": "pandas",
+      "ecosystem": "pypi",
+      "package": "pandas",
+      "summary": "Powerful data structures for data analysis, time series, and statistics",
+      "license": "BSD 3-Clause License",
+      "repo": "",
+      "version": "3.0.6",
+      "maintainer": "pandas-dev",
+      "categories": [
+        "dataframe"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:polars",
+      "name": "polars",
+      "ecosystem": "pypi",
+      "package": "polars",
+      "summary": "Blazingly fast DataFrame library",
+      "license": "Copyright (c) 2025 Ritchie Vink",
+      "repo": "https://github.com/pola-rs/polars",
+      "version": "2.0.0",
+      "maintainer": "pola-rs",
+      "categories": [
+        "dataframe"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:numpy",
+      "name": "numpy",
+      "ecosystem": "pypi",
+      "package": "numpy",
+      "summary": "Fundamental package for array computing in Python",
+      "license": "",
+      "repo": "",
+      "version": "2.5.4",
+      "maintainer": "numpy",
+      "categories": [
+        "numeric"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    },
+    {
+      "id": "pypi:celery",
+      "name": "celery",
+      "ecosystem": "pypi",
+      "package": "celery",
+      "summary": "Distributed Task Queue.",
+      "license": "BSD-3-Clause",
+      "repo": "https://docs.celeryq.dev/",
+      "version": "5.6.3",
+      "maintainer": "celery",
+      "categories": [
+        "task-queue"
+      ],
+      "aliases": [],
+      "legacy": false,
+      "origin": "public"
+    }
+  ],
+  "dependencies": [
+    {
+      "from": "react-dom",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^19.3.1"
+    },
+    {
+      "from": "next",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0"
+    },
+    {
+      "from": "next",
+      "to": "react-dom",
+      "kind": "peer",
+      "spec": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0"
+    },
+    {
+      "from": "next",
+      "to": "@playwright/test",
+      "kind": "peer",
+      "spec": "^1.51.1"
+    },
+    {
+      "from": "next-auth",
+      "to": "next",
+      "kind": "peer",
+      "spec": "^12.2.5 || ^13 || ^14 || ^15 || ^16"
+    },
+    {
+      "from": "next-auth",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^17.0.2 || ^18 || ^19"
+    },
+    {
+      "from": "next-auth",
+      "to": "react-dom",
+      "kind": "peer",
+      "spec": "^17.0.2 || ^18 || ^19"
+    },
+    {
+      "from": "@remix-run/react",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^18.0.0"
+    },
+    {
+      "from": "@remix-run/react",
+      "to": "react-dom",
+      "kind": "peer",
+      "spec": "^18.0.0"
+    },
+    {
+      "from": "@remix-run/react",
+      "to": "typescript",
+      "kind": "peer",
+      "spec": "^5.1.0"
+    },
+    {
+      "from": "vue",
+      "to": "typescript",
+      "kind": "peer",
+      "spec": "*"
+    },
+    {
+      "from": "nuxt",
+      "to": "vue",
+      "kind": "runtime",
+      "spec": "^3.5.43"
+    },
+    {
+      "from": "@sveltejs/kit",
+      "to": "vite",
+      "kind": "peer",
+      "spec": "^8.0.12"
+    },
+    {
+      "from": "@sveltejs/kit",
+      "to": "svelte",
+      "kind": "peer",
+      "spec": "^5.57.1"
+    },
+    {
+      "from": "@sveltejs/kit",
+      "to": "typescript",
+      "kind": "peer",
+      "spec": "^6.0.0"
+    },
+    {
+      "from": "vite",
+      "to": "esbuild",
+      "kind": "peer",
+      "spec": "^0.27.0 || ^0.28.0"
+    },
+    {
+      "from": "styled-components",
+      "to": "react",
+      "kind": "peer",
+      "spec": ">= 16.8.0"
+    },
+    {
+      "from": "styled-components",
+      "to": "react-dom",
+      "kind": "peer",
+      "spec": ">= 16.8.0"
+    },
+    {
+      "from": "zustand",
+      "to": "react",
+      "kind": "peer",
+      "spec": ">=18.0.0"
+    },
+    {
+      "from": "@tanstack/react-query",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^18 || ^19"
+    },
+    {
+      "from": "swr",
+      "to": "react",
+      "kind": "peer",
+      "spec": "^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
+    },
+    {
+      "from": "vitest",
+      "to": "vite",
+      "kind": "peer",
+      "spec": "^6.4.0 || ^7.0.0 || ^8.0.0"
+    },
+    {
+      "from": "cypress",
+      "to": "dayjs",
+      "kind": "runtime",
+      "spec": "^1.11.23"
+    },
+    {
+      "from": "cypress",
+      "to": "lodash",
+      "kind": "runtime",
+      "spec": "^4.17.23"
+    },
+    {
+      "from": "valibot",
+      "to": "typescript",
+      "kind": "peer",
+      "spec": ">=5"
+    },
+    {
+      "from": "@prisma/client",
+      "to": "typescript",
+      "kind": "peer",
+      "spec": ">=5.4.0"
+    },
+    {
+      "from": "drizzle-orm",
+      "to": "@prisma/client",
+      "kind": "peer",
+      "spec": "*"
+    },
+    {
+      "from": "typeorm",
+      "to": "dayjs",
+      "kind": "runtime",
+      "spec": "^1.11.23"
+    },
+    {
+      "from": "sequelize",
+      "to": "lodash",
+      "kind": "runtime",
+      "spec": "^4.17.21"
+    },
+    {
+      "from": "sequelize",
+      "to": "moment",
+      "kind": "runtime",
+      "spec": "^2.29.4"
+    },
+    {
+      "from": "@nestjs/core",
+      "to": "@nestjs/platform-express",
+      "kind": "peer",
+      "spec": "^12.0.0"
+    },
+    {
+      "from": "@nestjs/platform-express",
+      "to": "express",
+      "kind": "runtime",
+      "spec": "5.2.1"
+    },
+    {
+      "from": "@nestjs/platform-express",
+      "to": "@nestjs/core",
+      "kind": "peer",
+      "spec": "^12.0.0"
+    },
+    {
+      "from": "sails",
+      "to": "express",
+      "kind": "runtime",
+      "spec": "4.22.2"
+    },
+    {
+      "from": "@feathersjs/express",
+      "to": "express",
+      "kind": "runtime",
+      "spec": "^4.21.2"
+    },
+    {
+      "from": "fastapi",
+      "to": "starlette",
+      "kind": "runtime",
+      "spec": ">=0.46.0"
+    },
+    {
+      "from": "fastapi",
+      "to": "pydantic",
+      "kind": "runtime",
+      "spec": ">=2.9.0"
+    },
+    {
+      "from": "pandas",
+      "to": "numpy",
+      "kind": "runtime",
+      "spec": ">=2.3.3"
+    }
+  ],
+  "alternatives": [
+    {
+      "from": "moment",
+      "to": "dayjs",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "moment",
+      "to": "date-fns",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "moment",
+      "to": "luxon",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "dayjs",
+      "to": "date-fns",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "dayjs",
+      "to": "luxon",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "date-fns",
+      "to": "luxon",
+      "reason": "Compared as a date and time library"
+    },
+    {
+      "from": "express",
+      "to": "fastify",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "express",
+      "to": "koa",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "express",
+      "to": "hono",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "fastify",
+      "to": "koa",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "fastify",
+      "to": "hono",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "koa",
+      "to": "hono",
+      "reason": "Compared as a Node HTTP server"
+    },
+    {
+      "from": "flask",
+      "to": "fastapi",
+      "reason": "Compared as a Python web framework"
+    },
+    {
+      "from": "flask",
+      "to": "django",
+      "reason": "Compared as a Python web framework"
+    },
+    {
+      "from": "fastapi",
+      "to": "django",
+      "reason": "Compared as a Python web framework"
+    },
+    {
+      "from": "zod",
+      "to": "yup",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "zod",
+      "to": "joi",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "zod",
+      "to": "valibot",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "yup",
+      "to": "joi",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "yup",
+      "to": "valibot",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "joi",
+      "to": "valibot",
+      "reason": "Compared as a validation library"
+    },
+    {
+      "from": "pydantic",
+      "to": "marshmallow",
+      "reason": "Compared as a Python validation library"
+    },
+    {
+      "from": "webpack",
+      "to": "vite",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "webpack",
+      "to": "esbuild",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "webpack",
+      "to": "rollup",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "webpack",
+      "to": "parcel",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "vite",
+      "to": "esbuild",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "vite",
+      "to": "rollup",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "vite",
+      "to": "parcel",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "esbuild",
+      "to": "rollup",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "rollup",
+      "to": "parcel",
+      "reason": "Compared as a bundler"
+    },
+    {
+      "from": "react",
+      "to": "vue",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "react",
+      "to": "svelte",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "react",
+      "to": "@angular/core",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "vue",
+      "to": "svelte",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "vue",
+      "to": "@angular/core",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "svelte",
+      "to": "@angular/core",
+      "reason": "Compared as a frontend framework"
+    },
+    {
+      "from": "next",
+      "to": "nuxt",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "next",
+      "to": "@remix-run/react",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "next",
+      "to": "@sveltejs/kit",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "nuxt",
+      "to": "@remix-run/react",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "nuxt",
+      "to": "@sveltejs/kit",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "@remix-run/react",
+      "to": "@sveltejs/kit",
+      "reason": "Compared as a meta framework"
+    },
+    {
+      "from": "jest",
+      "to": "vitest",
+      "reason": "Compared as a test runner"
+    },
+    {
+      "from": "pytest",
+      "to": "jest",
+      "reason": "Compared as a test runner across ecosystems"
+    },
+    {
+      "from": "cypress",
+      "to": "@playwright/test",
+      "reason": "Compared as a browser test tool"
+    },
+    {
+      "from": "eslint",
+      "to": "@biomejs/biome",
+      "reason": "Compared as a linter"
+    },
+    {
+      "from": "prettier",
+      "to": "@biomejs/biome",
+      "reason": "Compared as a formatter"
+    },
+    {
+      "from": "ruff",
+      "to": "black",
+      "reason": "Compared as a Python lint and format tool"
+    },
+    {
+      "from": "redux",
+      "to": "zustand",
+      "reason": "Compared as a state container"
+    },
+    {
+      "from": "swr",
+      "to": "@tanstack/react-query",
+      "reason": "Compared as a data fetching library"
+    },
+    {
+      "from": "axios",
+      "to": "node-fetch",
+      "reason": "Compared as a JavaScript HTTP client"
+    },
+    {
+      "from": "requests",
+      "to": "httpx",
+      "reason": "Compared as a Python HTTP client"
+    },
+    {
+      "from": "@prisma/client",
+      "to": "drizzle-orm",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "@prisma/client",
+      "to": "typeorm",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "@prisma/client",
+      "to": "sequelize",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "drizzle-orm",
+      "to": "typeorm",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "typeorm",
+      "to": "sequelize",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "mongoose",
+      "to": "typeorm",
+      "reason": "Compared as a data access library"
+    },
+    {
+      "from": "tailwindcss",
+      "to": "styled-components",
+      "reason": "Compared as a CSS approach"
+    },
+    {
+      "from": "pandas",
+      "to": "polars",
+      "reason": "Compared as a data frame library"
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig:moment:legacy",
+      "tool": "moment",
+      "source": "https://momentjs.com/docs/#/-project-status/",
+      "kind": "deprecation",
+      "score": 1,
+      "origin": "public",
+      "detail": "The Moment project status page describes Moment as a legacy project in maintenance mode and points readers to other date libraries."
+    }
+  ]
+}
