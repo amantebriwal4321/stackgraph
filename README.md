@@ -6,6 +6,8 @@ Two agents share that database. Scout counts how many tools reach another tool t
 
 Primary track: Agents That Act on Connected Data. Secondary track: Agent Memory and Coordination.
 
+**Live demo:** <https://stackgraph.onrender.com> (health check at <https://stackgraph.onrender.com/api/health>). It runs on Render's free plan, so the first request after it sleeps can take about a minute while the container wakes up, and the memory graph resets when the container is replaced.
+
 ## Setup
 
 Docker and Docker Compose are enough for the demo. Python 3.11 on the host is only needed if you want to run pytest outside the API container.

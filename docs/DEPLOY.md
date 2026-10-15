@@ -1,6 +1,6 @@
 # Deploy
 
-There is no hosted URL in this repo. Local `docker compose up -d` is the setup judges can run without accounts. A public deploy needs two accounts Aman creates. Do not invent a hostname.
+The hosted demo is <https://stackgraph.onrender.com>, deployed from `Dockerfile.render` on Render's free plan (Singapore). Local `docker compose up -d` is the setup judges can run without accounts.
 
 ## Local
 

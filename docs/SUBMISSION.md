@@ -1,6 +1,6 @@
 # Submission draft
 
-Paste these into the hackathon form. Replace the link placeholders after the repo is public and, if you deploy, after the host exists.
+Paste these into the hackathon form.
 
 ## Title
 
@@ -39,8 +39,8 @@ Cursor's coding agent (Grok 4.7) drafted the repository. Aman Tebriwal owns the 
 
 ## Links
 
-* Repo: add the public URL after the repo exists
-* Live app: none yet. Local UI is <http://127.0.0.1:8091> after `docker compose up -d`. Steps for FalkorDB Cloud and Render are in `docs/DEPLOY.md`.
+* Repo: <https://github.com/amantebriwal4321/stackgraph>
+* Live app: <https://stackgraph.onrender.com> (Render free plan, one container running FalkorDB and the API. First load after idle can take about a minute.) Local UI is <http://127.0.0.1:8091> after `docker compose up -d`.
 * Demo video: record from `docs/DEMO_SCRIPT.md`
 * Blog: `docs/BLOG_DRAFT.md`
 
