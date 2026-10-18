@@ -6,6 +6,8 @@ Two agents share that database. Scout counts how many tools reach another tool t
 
 Primary track: Agents That Act on Connected Data. Secondary track: Agent Memory and Coordination.
 
+**Demo video:** <https://youtu.be/L1gNyQyUcp8>
+
 **Live demo:** <https://stackgraph.onrender.com> (health check at <https://stackgraph.onrender.com/api/health>). It runs on Render's free plan, so the first request after it sleeps can take about a minute while the container wakes up, and the memory graph resets when the container is replaced.
 
 ## Setup
@@ -66,7 +68,37 @@ Scout -> ecosystem
 Advisor -> mem_<user>
 ```
 
-The picture is `docs/architecture.png`.
+![Architecture](docs/architecture.png)
+
+Schema of the `ecosystem` graph:
+
+```mermaid
+graph LR
+  T1[Tool] -- DEPENDS_ON --> T2[Tool]
+  T1 -- ALTERNATIVE_TO --> T3[Tool]
+  T1 -- IN_CATEGORY --> C[Category]
+  M[Maintainer] -- MAINTAINS --> T1
+  S[Signal] -- ABOUT --> T2
+  R[AgentRun]
+```
+
+Schema of each `mem_<user>` graph:
+
+```mermaid
+graph LR
+  U[User] -- PREFERS --> T[Tool ref]
+  U -- USES --> T
+  U -- HAS_SESSION --> SE[Session]
+  SE -- ASKED --> Q[Question]
+  Q -- ANSWERED_WITH --> A[Answer]
+  A -- USED_PATH --> T
+```
+
+### Proof the graph does the work
+
+* Stop FalkorDB and `/api/ask` returns 503. There is no fallback store or cached answer.
+* Every answer in the UI shows the exact Cypher that ran and the node path it returned.
+* Scout writes `Signal` nodes and advisor only learns about blast radius by reading them back from the graph, so the two agents coordinate through FalkorDB alone.
 
 ### Ecosystem nodes
 
